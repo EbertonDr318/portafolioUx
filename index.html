@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>David Perez | Portafolio</title>
+
+<link rel="stylesheet" href="index.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="index.css">
+<script src="index.js" defer></script>
+</head>
+
+<body>
+
+<header>
+<nav class="navbar">
+<h1 class="logo">DavidR</h1>
+
+<ul class="menu">
+<li><a href="#inicio">Inicio</a></li>
+<li><a href="#about">Sobre mí</a></li>
+<li><a href="#servicios">Servicios</a></li>
+<li><a href="#trabajos">Trabajos</a></li>
+<li><a href="#Contacto">Contacto</a></li>
+
+</ul>
+
+</nav>
+</header>
+
+<section id="inicio" class="hero">
+
+<h2>Bienvenid@s a mi Portafolio</h2>
+<p>Diseñador UX/UI & Programador Jr</p>
+
+<a href="#Contacto" class="btn">Contáctame</a>
+
+</section>
+
+
+<section id="about" class="about-skills">
+
+  <div class="about">
+    <h2>David Raxcacó</h2>
+    <h4>Diseñador UX/UI & Programador Jr</h4>
+
+    <p>
+     Soy una persona apasionada por la tecnología y la creación de productos digitales.
+     Me interesa entender cómo las personas interactúan con las aplicaciones y transformar 
+     esas ideas en experiencias claras y funcionales.
+     Actualmente mi fuerte es el diseño UX/UI aunque también me estoy desarrollando como 
+     programador  móvil con Flutter, combinando diseño y programación para construir soluciones 
+    digitales intuitivas, modernas y centradas en el usuario. Siempre estoy aprendiendo y buscando
+     mejorar cada proyecto en el que trabajo.
+    </p>
+
+   <a href="EXTAS/cv.pdf" download class="btn btn-cv">
+  Descargar mi CV
+</a>
+  </div>
+
+  <div class="photo">
+    <img src="FOTOS_PERFIL/foto_porta.png" alt="David">
+  </div>
+
+  <div class="skills">
+
+    <h2>Mis Habilidades</h2>
+
+    <div class="skill">
+      <p>Desarrollo Flutter</p>
+      <div class="barra">
+        <div class="progreso flutter">
+          <span>20%</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <p>Diseñador UX/UI</p>
+      <div class="barra">
+        <div class="progreso ux">
+          <span>80%</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+<section id="servicios" class="servicios">
+
+<h1>¿Qué te ofrezco?</h1>
+
+<div class="cards">
+
+<div class="card">
+
+<h2>Diseño UX/UI</h2>
+
+<p>
+<h4>Sketch · Wireframes · Prototipos funcionales.</h4>
+<p>
+Diseño experiencias claras, intuitivas y centradas en el usuario.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h2>Programador Jr</h2>
+
+
+<h4>Desarrollo móvil con Flutter</h4>
+<p>
+Busco crear aplicaciones modernas combinando diseño y funcionalidad.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="trabajos">
+
+  <h2>Mis trabajos</h2>
+
+  <!-- 🔥 GRID DE PROYECTOS -->
+  <div class="proyectos">
+
+    <div id="trabajos" class="proyecto active" onclick="mostrarProyecto(0)">
+      <img src="APPSHEET/Appsheet.png" alt="Proyecto 1">
+    </div>
+
+    <div id="trabajos" class="proyecto" onclick="mostrarProyecto(1)">
+      <img src="APP_REACT/logo_inge.png" alt="Proyecto 2">
+    </div>
+
+    <div id="trabajos" class="proyecto" onclick="mostrarProyecto(2)">
+      <img src="APP_GROW/Grow.png" alt="Proyecto 3">
+    </div>
+
+  </div>
+
+  <!-- 🔥 INFO -->
+  <div class="info active">
+
+  <h3>Google Appsheet</h3>
+
+  <p>El problema principal cuando inicio este proyecrto fue la falta de coordinación 
+        y respaldo de datos de trabajos en campo, lo que dificultaba el seguimiento y 
+        la gestión eficiente de los proyectos. ya que lo manejaban en hojas de Excel y chats en
+        telegram, que aunque les funcionaba no era lo más eficiente ni organizado, por lo que se decidió
+        implementar una solución y se inicio el desarrollo de una aplicación móvil utilizando
+         Google Appsheet, que permitió centralizar la información, mejorar la comunicación y optimizar 
+         la gestión de los proyectos en campo. en el momento en que llego a la empresa ya se había
+          desarrollado la aplicación y se estaba utilizando, pero se me asigno la tarea de mejorarla y agregarle nuevas funcionalidades,
+           lo que me permitió
+           aprender a utilizar esta plataforma y desarrollar habilidades en el diseño de interfaces y 
+           experiencia de usuario, así como en la gestión de datos y automatización de procesos. 
+           Este proyecto fue una gran oportunidad para aplicar mis conocimientos y contribuir a la 
+           mejora de los procesos internos de la empresa. entonces comenzamos primero en investigar lo que ya existia 
+           dentro de la Aplicación para poder empezar a enfocar prolemas directos para esto utilizamos:</p>
+    <ul class="lista">
+  <li>Métricas de comportamiento</li>
+  <li>Entrevistas a usuarios</li>
+  <li>Gestión de datos</li>
+  <li>Pruebas de usabilidad</li>
+  <li>Implementación de mejoras basadas en feedback</li>
+  <li>Seguimiento y optimización continua</li>
+</ul>
+
+
+  <!-- 🔥 GALERÍA -->
+  <div class="galeria-proyecto">
+    <img src="APPSHEET/LoginAppSheet.png">
+    <img src="APPSHEET/InicioAppSsheet.png">
+    <img src="APPSHEET/BarraOpciones2.png">
+    <img src="APPSHEET/EspacioAppSheet.png">
+  </div>
+  
+<p class="aprendizaje">
+  En este proyecto, más allá de una vista bonita, aprendí a escuchar y entender las necesidades
+  tanto del usuario como de los supervisores a cargo de las áreas. Busqué un equilibrio entre la eficiencia
+  en campo y la facilidad de uso, considerando que muchos usuarios no son expertos en tecnología.
+  Por ello, me enfoqué en diseñar interfaces simples, intuitivas y funcionales.
+</p>
+
+
+
+</div>
+    <div class="info">
+      <h3>Ingetelca App</h3>
+     <p>En este proyecto se buscó una optimización mejorada en base a una aplicación de Google AppSheet,
+       ya que la demanda creció y la estabilidad de Google AppSheet se quedaba corta. Entonces se decidió 
+       migrar a una aplicación nativa desarrollada en React Native, lo que permitió una mayor personalización,
+        mejor rendimiento y una experiencia de usuario más fluida.
+        En este proyecto se me asignó la tarea de diseñar la interfaz de usuario y mejorar la experiencia de usuario,
+        lo que me permitió aplicar mis conocimientos en diseño UX/UI y aprender a trabajar con React Native.
+          Este proyecto fue una gran oportunidad para contribuir a la mejora de los procesos internos de la empresa y 
+          desarrollar mis habilidades en el diseño y desarrollo de aplicaciones móviles.
+        Entonces comenzamos primero en investigar lo que ya existía dentro de la aplicación para poder empezar a enfocar 
+        problemas directos; para esto utilizamos los siguientes procesos:
+
+     </p>
+    <ul class="lista">
+  <li>Métricas de comportamiento</li>
+  <li>Entrevistas a usuarios</li>
+  <li>Diagramas de flujo</li>
+  <li>Mapas de empatía</li>
+  <li>Creación de Wireframes</li>
+  <li>Prototipado de baja hasta alta fidelidad</li>
+  <li>Pruebas de usabilidad</li>
+  <li>Implementación de mejoras basadas en feedback</li>
+  <li>Seguimiento y optimización continua</li>
+</ul>
+
+ <p>Esto nos permitio hacer no solo una mejora notable en la fluidez de la aplicación si no tambien reducimos 
+  procesos se realizaban en mas de dos cliscks a solo uno optimizando la productividad de los usuarios y mejorando
+   la experiencia general de la aplicación.
+ </p>
+
+ 
+  <!-- 🔥 GALERÍA -->
+  <div class="galeria-proyecto">
+    <img src="APP_REACT/LOGIN_INGE_APP.png">
+    <img src="APP_REACT/FINAL_LOGIN_INGE_APP.png">
+    <img src="APP_REACT/HOME_INGE_APP.png">
+    <img src="APP_REACT/FINAL_HOME_INGE_APP.png">
+    <img src="APP_REACT/OPTION_INGE_APP.png">
+    <img src="APP_REACT/FINAL_OPTION_INGE_APP.png">
+    <img src="APP_REACT/BODEGA_INGE_APP.png">
+    <img src="APP_REACT/FINA_BODEGA_INGE_APP.png">
+  </div>
+  
+<p class="aprendizaje">
+  En este proyecto, aprendí a adaptar mis habilidades de diseño UX/UI a una nueva plataforma de desarrollo,
+  lo que me permitió ampliar mi conocimiento en el diseño de interfaces y experiencia de usuario. Además, 
+  trabajar con Porgramadores de React Native me dio la oportunidad de entender mejor el proceso de desarrollo 
+  de aplicaciones en equipo, ya que anteriormente todos teniamos un solo sistema de trabajo en Google AppSheet ahora 
+  el equipo se dividio y me ayudo al trabajo y comunicación entre yo como diseñador y los programadores, lo que mejoró
+   la colaboración y la eficiencia en el desarrollo de la aplicación.
+    </div>
+
+    <div class="info">
+      <h3>Proyecto 3</h3>
+      <p>Descripción del proyecto 3...</p>
+    </div>
+
+  </div>
+
+</section>
+
+
+<section class="testimonios">
+
+  <h2>Mi Equipo dice</h2>
+
+  <div class="slider">
+
+    <div class="slide active">
+      <img src="FOTOS_PERFIL/Jefferson.jpeg" class="foto">
+
+      <p>
+        Trabajar con David es trabajar con alguien que realmente se toma en serio lo que hace. 
+        Siempre busca entender bien los problemas antes de empezar y se esfuerza por encontrar 
+        soluciones claras y funcionales.
+        Tiene una actitud muy positiva para aprender cosas nuevas, especialmente en desarrollo 
+        móvil y diseño de interfaces, y no duda en dedicar tiempo extra para mejorar su trabajo. 
+        Además, es una persona accesible, que escucha ideas y hace que la colaboración sea fácil 
+        y agradable.
+        Es alguien en quien puedes confiar cuando se trata de sacar adelante un proyecto.
+      </p>
+
+      <h3>Jefferson Aguilar</h3>
+      <span>Backend Developer</span>
+    </div>
+
+    <div class="slide">
+      <img src="persona2.jpg" class="foto">
+
+      <p>
+        EXAMPLE
+      </p>
+
+      <h3>Gadiel López</h3>
+      <span> Backend Developer (Trainee)</span>
+    </div>
+
+  </div>
+
+  <!-- BOTONES -->
+  <div class="dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+  </div>
+
+</section>
+
+
+
+<section id="Contacto" class="Contacto">
+
+<h2>¿Interesado?</h2>
+<h4>Contáctame</h4>
+
+<div class="contacto-cards">
+
+  <!-- WHATSAPP -->
+  <div class="card_contacto">
+    <i class="fab fa-whatsapp"></i>
+    <h3>WhatsApp</h3>
+    <a href="https://wa.me/50230715968" target="_blank">Enviar mensaje</a>
+  </div>
+
+  <!-- EMAIL -->
+  <div class="card_contacto">
+    <i class="fas fa-envelope"></i>
+    <h3>Email</h3>
+    <a href="mailto:drjonathan318@gmail.com">drjonathan318@gmail.com</a>
+  </div>
+
+  <!-- UBICACIÓN -->
+  <div class="card_contacto">
+    <i class="fas fa-location-dot"></i>
+    <h3>Ubicación</h3>
+    <p>Ciudad de Guatemala, Guatemala</p>
+  </div>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 David Perez</p>
+
+<div class="redes">
+<a href="https://linkedin.com/in/david-pérez-1b692428b" target="_blank">LinkedIn</a>
+<!-- <a href="https://instagram.com/david__peerez_" target="_blank">Instagram</a> -->
+
+</div>
+
+</footer>
+
+
+</body>
+</html>
